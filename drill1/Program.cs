@@ -2,4 +2,6 @@
 
 int n = Convert.ToInt32(Console.Read());
 
-Console.WriteLine(n*n);
+
+Console.WriteLine("Вы удивитесь, но квадрат данного числа = ");
+Console.WriteLine(n * n);
