@@ -1,0 +1,15 @@
+/Users/Elena/Documents/Seminar_C#/drill0/bin/Debug/net6.0/drill0
+/Users/Elena/Documents/Seminar_C#/drill0/bin/Debug/net6.0/drill0.deps.json
+/Users/Elena/Documents/Seminar_C#/drill0/bin/Debug/net6.0/drill0.runtimeconfig.json
+/Users/Elena/Documents/Seminar_C#/drill0/bin/Debug/net6.0/drill0.dll
+/Users/Elena/Documents/Seminar_C#/drill0/bin/Debug/net6.0/drill0.pdb
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/drill0.csproj.AssemblyReference.cache
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/drill0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/drill0.AssemblyInfoInputs.cache
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/drill0.AssemblyInfo.cs
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/drill0.csproj.CoreCompileInputs.cache
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/drill0.dll
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/refint/drill0.dll
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/drill0.pdb
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/drill0.genruntimeconfig.cache
+/Users/Elena/Documents/Seminar_C#/drill0/obj/Debug/net6.0/ref/drill0.dll
