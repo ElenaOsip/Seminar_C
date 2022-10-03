@@ -1,8 +1,7 @@
 ﻿Console.WriteLine("Введите целое число");
 
-int n = Convert.ToInt32(Console.Read());
+int x = Convert.ToInt32(Console.Read());
 
-Console.WriteLine(n);
+Console.WriteLine(x);
 
-Console.WriteLine(n*n);
-Console.WriteLine(n+n);
+Console.WriteLine(x*x);
