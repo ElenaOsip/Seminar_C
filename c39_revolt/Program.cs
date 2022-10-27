@@ -23,13 +23,20 @@ void Print (int [] arr)
 Console.WriteLine();    
 }
 
-Revolt(array, revolt);
+// Revolt(array, revolt);
 
-int [] Revolt (int[] arr, int[] arr2)
-{for (int i =0; i<arr.Length; i++)
-{arr2[i]=arr[arr.Length-1-i];
-}
-return arr2;
+// int [] Revolt (int[] arr, int[] arr2)
+// {for (int i =0; i<arr.Length; i++)
+// {arr2[i]=arr[arr.Length-1-i];
+// }
+// return arr2;
+// }
+//Print (revolt);
+
+for (int i=0; i<array.Length/2; i++)
+{int tem = array [i];
+array[i]=array[array.Length-1-i];
+array[array.Length-1-i]=tem;
 }
 
-Print(revolt);
+Print(array);
