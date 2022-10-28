@@ -1,5 +1,5 @@
 ﻿//Задача 52_1
-//задать двумерный массив. Упорядочить по убыванию
+//задать двумерный массив. Упорядочить элементы строк по убыванию
 
 int row = new Random().Next(3,6);
 int column = new Random().Next(3,4);
@@ -27,9 +27,7 @@ void PrintArray (int[,]array)
    Console.WriteLine();
     }
 }
-Console.WriteLine(row);
-Console.WriteLine(column);
-Console.WriteLine();
+
 PrintArray(arr);
 
 
