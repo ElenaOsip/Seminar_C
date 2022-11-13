@@ -3,54 +3,65 @@
 // указанием индексов каждого элемента
 
 
-// заполнение трехмерного массива двузначными числами
-// int[,,] MultiArr = new int [4,3,4]; 
+// создание одномерного массива с двузначными неповторяющимися рандомными числами
+     int[] values = new int[90];
 
-// int[,,] newMulti (int[,,] array)
-// { for (int i = 0; i< array.GetLength(0); i++)
-//     {   for (int j=0; j<array.GetLength(1); j++)
-//         {   for (int k=0; k<array.GetLength(2); k++)
-//                 {array[i,j,k] = new Random().Next(10,100);
-                
-//                 }
-//         }
-//     }
-//     return array;
-// }
+		for (int i = 0; i < values.Length; ++i)
+			values[i] = 10 + i;
+
+		Random random = new Random();
+
+		for (int i = 0; i < values.Length; ++i)
+		{
+			int index = random.Next(values.Length);
+
+			if (i == index)
+				continue;
+
+			int tmp = values[i];
+
+			values[i] = values[index];
+			values[index] = tmp;
+		}
+
+// печать одномерного массива
+
+	 {  int index =0;
+        int length = values.Length;
+        while (index<length)
+    {Console.Write(values[index]+ " ");
+    index ++;}
+    }
+Console.WriteLine();
+    
+    
+    
+    
+    
+
+ 
 
 
-//создание одномерного массива с неповторяющимися двузначными числами 
-
-
-HashSet<int> numbers = new HashSet<int>();
-
-for (int i = 10; i < 100; i++) 
-{
-    numbers.Add(i); 
-}
-
-int[]arr = numbers.ToArray();
 
 
 
-
- //преобразование одномерного массива в трехмерный
+//  преобразование одномерного массива в трехмерный
 int[,,] MultiArr = new int [10,3,3]; 
 
-int[,,] newMulti (int[] array)
+int[,,] newMulti (int[] value)
 
 { int c=0;
     for (int i = 0; i< 10; i++)
     {   for (int j=0; j<3; j++)
         {   for (int k=0; k<3; k++)
-                {MultiArr[i,j,k] = array[c];
+                {MultiArr[i,j,k] = value[c];
                 c++;
                 }
         }
     }
     return (MultiArr);
 }
-
+newMulti(values);
 
 
 int [,,] PrintMulti (int[,,] array)
@@ -66,5 +77,5 @@ int [,,] PrintMulti (int[,,] array)
 }
 
 
-newMulti(arr);
+
 PrintMulti(MultiArr);
